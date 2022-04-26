@@ -9,7 +9,7 @@ So far the only user input is clicking the "Generate Map" button.
 The map may generate with a hole or holes occassionally. Future versions will have more tiles so blank spaces will become less likely.
 
 Future plans for this code include:
-- weight to tile selection
+- weight of tile selection
 - more map tiles to reduce map holes
 - monster generation
 - treasure generation
@@ -22,7 +22,8 @@ Future plans for this code include:
 - UI
   - choosing map size
   - read monster/treasure/trap descriptions
-  - choosing map difficulty level
+  - choosing map/monster/trap difficulty level
   - save map
   - customize map
+  - customize map features (traps,monsters,treasures)
   - grow map (generate add on map)
