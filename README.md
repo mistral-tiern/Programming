@@ -9,6 +9,8 @@ So far the only user input is clicking the "Generate Map" button.
 The map may generate with a hole or holes occassionally. Future versions will have more tiles so blank spaces will become less likely.
 
 Future plans for this code include:
+- map does not currently display correctly on every screen, add automatic scaling of map image
+- "draw" map into single png that is downloadable and savable (Canvas 2D drawing context)
 - weight of tile selection (added 04.26.2022)
 - more map tiles to reduce map holes (ongoing)
 - monster generation
