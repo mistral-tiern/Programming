@@ -11,18 +11,18 @@ The map may generate with a hole or holes occassionally. Future versions will ha
 Future plans for this code include:
 - map does not currently display correctly on every screen, add automatic scaling of map image
 - "draw" map into single png that is downloadable and savable (Canvas 2D drawing context)
-``- weight of tile selection (added 04.26.2022)
+~~- weight of tile selection (added 04.26.2022)
 - more map tiles to reduce map holes (ongoing)
 - monster generation
 - treasure generation
 - trap generation
-``- different map sizes (added 04.26.2022)
+~~- different map sizes (added 04.26.2022)
 - different levels/difficulties/CRs
 - average CR of monsters/traps
 - interactions/relationships between mopnsters/treasures/traps
 - new terrains (walls, ice, difficult terrain)
 - UI
-  ``- choosing map size (added 04.26.2022)
+  ~~- choosing map size (added 04.26.2022)
   - read monster/treasure/trap descriptions
   - choosing map/monster/trap difficulty level
   - save map
