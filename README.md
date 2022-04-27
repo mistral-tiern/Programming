@@ -1,12 +1,12 @@
 # Programming
 
 Tiles are png files 3 squares wide and 3 squares high, 207 x 207 pixels. 
-The map that is generated on the first version is 5 tiles wide by 5 tiles high. 
+~~The map that is generated on the first version is 5 tiles wide by 5 tiles high.~~
 The tiles are both rotated and mirrored using code. 
 I elected not to eliminate duplicates as that would impact the weight of the tiles in the future. 
-Tiles have weights assigned but this first version does not yet use the weight property.
-So far the only user input is clicking the "Generate Map" button.
-The map may generate with a hole or holes occassionally. Future versions will have more tiles so blank spaces will become less likely.
+Tiles have weights assigned ~~but this first version does not yet use the weight property.~~
+~~So far the only~~ user input is clicking the "Generate Map" button. UI for selecting the map size added 04.26.2022.
+The map may generate with a hole or holes occassionally. Future versions will have more tiles so blank spaces will become less likely. Adding tiles is an ongoing process.
 
 Future plans for this code include:
 - create server(?) to host generator
