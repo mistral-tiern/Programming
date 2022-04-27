@@ -9,18 +9,18 @@ So far the only user input is clicking the "Generate Map" button.
 The map may generate with a hole or holes occassionally. Future versions will have more tiles so blank spaces will become less likely.
 
 Future plans for this code include:
-- weight of tile selection
-- more map tiles to reduce map holes
+- weight of tile selection (added 04.26.2022)
+- more map tiles to reduce map holes (ongoing)
 - monster generation
 - treasure generation
 - trap generation
-- different map sizes
+- different map sizes (added 04.26.2022)
 - different levels/difficulties/CRs
 - average CR of monsters/traps
 - interactions/relationships between mopnsters/treasures/traps
 - new terrains (walls, ice, difficult terrain)
 - UI
-  - choosing map size
+  - choosing map size (added 04.26.2022)
   - read monster/treasure/trap descriptions
   - choosing map/monster/trap difficulty level
   - save map
