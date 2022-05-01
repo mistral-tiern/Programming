@@ -610,35 +610,37 @@
             const map = new Array(w * h)
             map.fill("")
             const mapArray = buildMap(map, w, h)
+            render(mapArray,w,h)
             console.log(mapArray)
-            const container = (document.getElementById("map"))
-            for (const child of Array.from(container.children)) {
-                child.remove()
-            }
-            const rowArray = []
-            let count = 0
-            let row = null
-            for (const tilename of mapArray) {
-                if (count % w === 0) {
-                    row = document.createElement("div")
-                    rowArray.push(row)
+            
+            // const container = (document.getElementById("map"))
+            // for (const child of Array.from(container.children)) {
+            //     child.remove()
+            // }
+            // const rowArray = []
+            // let count = 0
+            // let row = null
+            // for (const tilename of mapArray) {
+            //     if (count % w === 0) {
+            //         row = document.createElement("div")
+            //         rowArray.push(row)
     
-                }
-                count++
-                const tile = deck[tilename]
-                if (!tile) console.log("Tile not found. :(", tilename, deck)
-                const image = new Image(180, 180)
-                if (tile) {
-                    image.src = "newTiles/" + tile?.filename;
-                    image.style.cssText = `transform:scaleX(${tile.mirror}) rotate(${tile.rotation}deg)`;
-                    image.onclick = function () { console.log(tile) }
-                }
-                row.appendChild(image)
-            }
-            rowArray.reverse()
-            for (const ScoobySnack of rowArray) {
-                container.appendChild(ScoobySnack)
-            }
+            //     }
+            //     count++
+            //     const tile = deck[tilename]
+            //     if (!tile) console.log("Tile not found. :(", tilename, deck)
+            //     const image = new Image(180, 180)
+            //     if (tile) {
+            //         image.src = "newTiles/" + tile?.filename;
+            //         image.style.cssText = `transform:scaleX(${tile.mirror}) rotate(${tile.rotation}deg)`;
+            //         image.onclick = function () { console.log(tile) }
+            //     }
+            //     row.appendChild(image)
+            // }
+            // rowArray.reverse()
+            // for (const ScoobySnack of rowArray) {
+            //     container.appendChild(ScoobySnack)
+            // }
     
         }
     
