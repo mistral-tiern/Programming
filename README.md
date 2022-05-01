@@ -11,7 +11,7 @@ The map may generate with a hole or holes occassionally. Future versions will ha
 Future plans for this code include:
 - create server(?) to host generator
 - map does not currently display correctly on every screen, add automatic scaling of map image
-- "draw" map into single png that is downloadable and savable (Canvas 2D drawing context)
+- ~~"draw" map into single png that is downloadable and savable (Canvas 2D drawing context)~~
 - ~~weight of tile selection (added 04.26.2022)~~
 - more map tiles to reduce map holes (ongoing)
 - monster generation
