@@ -24,6 +24,7 @@ Future plans for this code include:
 - new terrains (walls, ice, difficult terrain)
 - UI
   - ~~choosing map size (added 04.26.2022)~~
+  - show error when user forgets to select map size
   - read monster/treasure/trap descriptions
   - choosing map/monster/trap difficulty level
   - save map
